@@ -506,6 +506,24 @@
       "decimals": 18,
       "logoURI": "https://raw.githubusercontent.com/aurora-is-near/bridge-assets/master/tokens/yfi.svg",
       "tags": ["ethereum"]
+    },
+    {
+      "chainId": 1313161555,
+      "address": "0x72ea2aDcadD044EfB77606894699B114CFf6eB01",
+      "symbol": "MLT",
+      "name": "MalToken",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Doc-Failure/aurora-testnet-tokenlist/main/nobitconnect.svg",
+      "tags": ["ethereum"]
+    },
+    {
+      "chainId": 1313161555,
+      "address": "0x65dB021bF79ca3d1840B19F87473d0A2f0F317a2",
+      "symbol": "NBTC",
+      "name": "NotBitconnect",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/Doc-Failure/aurora-testnet-tokenlist/main/nobitconnect.svg",
+      "tags": ["ethereum"]
     }
   ],
   "version": {
