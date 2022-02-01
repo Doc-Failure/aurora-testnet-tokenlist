@@ -34,7 +34,7 @@ jobs:
         outputs:
           time: # id of output
             description: "The time we greeted you"
-        runs:
+        run:
           using: "node16"
           main: "index.js"
 
