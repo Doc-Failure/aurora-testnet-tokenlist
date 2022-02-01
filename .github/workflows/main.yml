@@ -26,4 +26,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: aurora_tokens.json updated
-          file_pattern: *.json
+          file_pattern: ./*.json
