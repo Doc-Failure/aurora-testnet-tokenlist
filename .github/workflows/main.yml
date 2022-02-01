@@ -19,8 +19,8 @@ jobs:
     name: Update ERC20 Aurora Token list
     steps:
       - uses: actions/checkout@v2
-      - name: Hello world action step
-        id: hello
+      - name: Aurora ERC20 Tokens Updater
+        id: JsonErc20Updater
         uses: Doc-Failure/aurora-testnet-tokenlist@v2.0
 
       - uses: stefanzweifel/git-auto-commit-action@v4
