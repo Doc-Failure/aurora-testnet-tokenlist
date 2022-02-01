@@ -14,19 +14,11 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-
-  hello_world_job:
+  update_token_list_job:
     runs-on: ubuntu-latest
     name: Update ERC20 Aurora Token list
     steps:
+      - uses: actions/checkout@v2
       - name: Hello world action step
         id: hello
         uses: Doc-Failure/aurora-testnet-tokenlist@v2.0
@@ -34,3 +26,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: aurora_tokens.json updated
+           file_pattern: *.json
