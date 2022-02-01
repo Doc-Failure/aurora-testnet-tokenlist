@@ -21,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
       - name: Aurora ERC20 Tokens Updater
         id: JsonErc20Updater
-        uses: Doc-Failure/aurora-testnet-tokenlist@v2.0
+        uses: Doc-Failure/aurora-testnet-tokenlist
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
