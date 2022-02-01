@@ -1,13 +1,5 @@
-name: "Hello World"
-description: "Greet someone and record the time"
-inputs:
-  who-to-greet: # id of input
-    description: "Who to greet"
-    required: true
-    default: "World"
-outputs:
-  time: # id of output
-    description: "The time we greeted you"
+name: "Aurora ERC20 Tokens Updater"
+description: "Retrieve the addresses of new ERC20 tokens in a smart contract deployed on the Aurora Blockchain and update the local json file"
 runs:
   using: "node16"
   main: "./dist/index.js"

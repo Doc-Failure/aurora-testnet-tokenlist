@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Doc-Failure/aurora-testnet-tokenlist#readme",
   "dependencies": {
     "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.0"
+    "@actions/github": "^5.0.0",
+    "web3": "^1.7.0"
   }
 }
