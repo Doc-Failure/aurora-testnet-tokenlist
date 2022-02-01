@@ -1,0 +1,24 @@
+{
+  "name": "aurora-testnet-tokenlist",
+  "version": "1.0.0",
+  "description": "A comprehensive list of some Aurora token addresses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Doc-Failure/aurora-testnet-tokenlist.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Doc-Failure/aurora-testnet-tokenlist/issues"
+  },
+  "homepage": "https://github.com/Doc-Failure/aurora-testnet-tokenlist#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
