@@ -6,7 +6,7 @@ const aurora_tokens = require('./aurora_tokens.json');
 var fs = require('fs');
 
 function retrieveContract(){
-    contract.methods.getContracts().call({from: '0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe'}, (error, result) => {
+    contract.methods.getContracts().call({from: '0xaeFAcfec21258446C63E0571782D8291c5244175'}, (error, result) => {
         if(!error){
             let tokenList=[];
             result.forEach(element => {
