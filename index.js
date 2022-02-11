@@ -6,7 +6,7 @@ const aurora_tokens = require('./aurora_tokens.json');
 var fs = require('fs');
 
 function retrieveContract(){
-    contract.methods.getContracts().call({from: '0xaeFAcfec21258446C63E0571782D8291c5244175'}, (error, result) => {
+    contract.methods.getContracts().call({from: '0xde0B295669a9FD93d5F28D9Ec85E40f4cb697BAe'}, (error, result) => {
         if(!error){
             let tokenList=[];
             result.forEach(element => {
@@ -31,7 +31,7 @@ function retrieveContract(){
 
 try {
   var web3 = new Web3("https://testnet.aurora.dev");
-  var contract = new web3.eth.Contract(abi, '0x80B2f8B2eA0B79347dBA5d9715AC047df3beED5f');
+  var contract = new web3.eth.Contract(abi, '0xaeFAcfec21258446C63E0571782D8291c5244175');
   retrieveContract()
   // `who-to-greet` input defined in action metadata file
 
