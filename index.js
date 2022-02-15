@@ -30,6 +30,7 @@ function retrieveContract(){
 }
 
 try {
+  console.log("launching v2.3")
   var web3 = new Web3("https://testnet.aurora.dev");
   var contract = new web3.eth.Contract(abi, '0xaeFAcfec21258446C63E0571782D8291c5244175');
   retrieveContract()

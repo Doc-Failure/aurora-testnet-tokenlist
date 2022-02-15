@@ -8,3 +8,5 @@ always run:
 
 after a changes in the index.js files.
 The command updates the dist folder and the workfow behaviour
+
+- Remember to change the script version to launch in the .github/workflows directory
